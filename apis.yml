@@ -1,7 +1,15 @@
 aid: equipboard
 name: Equipboard
-description: Equipboard is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Equipboard is a community-sourced music-gear discovery platform where musicians, producers,
+  and DJs find the equipment behind the music. Members browse the gear their favorite artists
+  play — guitars, effects pedals, synthesizers, DAWs, plug-ins, microphones, drum machines, and
+  keyboards — build and share their own rigs and gear lists, read and write reviews, and follow
+  buy-links to retailers. Equipboard is built by musicians for musicians and monetizes primarily
+  through affiliate relationships (including the Amazon Associates Program). Recent product work
+  adds album- and track-level gear attribution. The company is backed by 500 Global. Equipboard
+  does not currently publish a public developer API; this profile is maintained by the API
+  Evangelist network and enriched from Equipboard's public web surface.
 url: https://raw.githubusercontent.com/api-evangelist/equipboard/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,32 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://equipboard.com/favicon.ico
 tags:
 - Company
+- Music
+- Musical Instruments
+- Music Gear
+- Community
+- Discovery
+- Reviews
+- Consumer
+- Entertainment
+- Affiliate
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,24 @@ maintainers:
 common:
 - type: Website
   url: https://equipboard.com
+- type: SignUp
+  url: https://equipboard.com/users/sign_up
+- type: Login
+  url: https://equipboard.com/login
+- type: Support
+  url: https://equipboard.com/about/contact
+- type: HelpCenter
+  url: https://equipboard.com/about/faq
+- type: TermsOfService
+  url: https://equipboard.com/about/terms
+- type: PrivacyPolicy
+  url: https://equipboard.com/about/privacy
+- type: DomainSecurity
+  url: security/equipboard-domain-security.yml
+- type: LLMsTxt
+  url: llms/equipboard-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
